@@ -1,0 +1,10 @@
+Started by user [8mha:////4ALnIJOfBgjjsXGOGiUdiQgRtMpTmNqIMY1bvleD5g5hAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/dLi1CL9kvzSIt2ixJTEIgDZDAaHxQAAAA==[0mtour-radar
+Building in workspace /var/jenkins_home/workspace/ElasticSearch
+[ElasticSearch] $ /bin/sh -xe /tmp/jenkins2251958560572702457.sh
++ curator --config /curator.yml /delete_index.yml
+2017-12-11 23:01:58,750 INFO      Preparing Action ID: 1, "delete_indices"
+2017-12-11 23:01:58,773 INFO      Trying Action ID: 1, "delete_indices": No description given
+2017-12-11 23:01:58,792 INFO      Skipping action "delete_indices" due to empty list: <class 'curator.exceptions.NoIndices'>
+2017-12-11 23:01:58,793 INFO      Action ID: 1, "delete_indices" completed.
+2017-12-11 23:01:58,793 INFO      Job completed.
+Finished: SUCCESS

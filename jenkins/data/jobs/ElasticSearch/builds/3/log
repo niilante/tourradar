@@ -1,0 +1,10 @@
+Started by timer
+Building in workspace /var/jenkins_home/workspace/ElasticSearch
+[ElasticSearch] $ /bin/sh -xe /tmp/jenkins246907614578070298.sh
++ curator --config /curator.yml /delete_index.yml
+2017-12-12 02:58:11,140 INFO      Preparing Action ID: 1, "delete_indices"
+2017-12-12 02:58:11,152 INFO      Trying Action ID: 1, "delete_indices": No description given
+2017-12-12 02:58:11,221 INFO      Skipping action "delete_indices" due to empty list: <class 'curator.exceptions.NoIndices'>
+2017-12-12 02:58:11,222 INFO      Action ID: 1, "delete_indices" completed.
+2017-12-12 02:58:11,222 INFO      Job completed.
+Finished: SUCCESS

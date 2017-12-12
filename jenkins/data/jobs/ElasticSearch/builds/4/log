@@ -1,0 +1,11 @@
+Started by user [8mha:////4PlDmKA7UiB8pcjkBZiTh0INPLAQ1jYEtv8mBlKtBR4FAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building in workspace /var/jenkins_home/jobs/ElasticSearch/workspace
+[workspace] $ /bin/sh -xe /tmp/jenkins19772430846423123.sh
++ curator --config /curator.yml /delete_index.yml
+2017-12-12 13:00:02,555 INFO      Preparing Action ID: 1, "delete_indices"
+2017-12-12 13:00:02,561 INFO      Trying Action ID: 1, "delete_indices": No description given
+2017-12-12 13:00:02,592 INFO      Deleting selected indices: [u'logstash-2017.12.12']
+2017-12-12 13:00:02,592 INFO      ---deleting index logstash-2017.12.12
+2017-12-12 13:00:02,949 INFO      Action ID: 1, "delete_indices" completed.
+2017-12-12 13:00:02,949 INFO      Job completed.
+Finished: SUCCESS

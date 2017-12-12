@@ -1,0 +1,12 @@
+{
+    "name": "idir.ouhab/php",
+    "require": {
+        "predis/predis": "^1.1"
+    },
+    "authors": [
+        {
+            "name": "Idir Ouhab Meskine",
+            "email": "ouhab.idir@gmail.com"
+        }
+    ]
+}
